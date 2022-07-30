@@ -1,5 +1,5 @@
 {
-    "name": "guncha25/drupal-codeception",
+    "name": "droptica/drupal-codeception",
     "description": "Codeception toolset for Drupal testing.",
     "type": "package",
     "repositories": [
