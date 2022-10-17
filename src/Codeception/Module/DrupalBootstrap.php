@@ -67,7 +67,7 @@ class DrupalBootstrap extends Module {
       $_SERVER['HTTP_HOST'] = $this->config['http_host'];
     }
     $request = Request::createFromGlobals();
-    $autoloader = require $this->_getConfig('root') . '/autoload.php';
+    $autoloader = require $this->_getConfig('root') . '/vendor/autoload.php';
     $kernel = new TestDrupalKernel('prod', $autoloader, $this->_getConfig('root'));
     $kernel->bootTestEnvironment($this->_getConfig('site_path'), $request);
   }

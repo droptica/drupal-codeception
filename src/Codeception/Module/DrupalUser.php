@@ -112,17 +112,25 @@ class DrupalUser extends Module {
    * @return \Drupal\user\Entity\User
    *   User object.
    */
-  public function createUserWithRoles(array $roles = [], $password = FALSE) {
+  public function createUserWithRoles(array $roles = [], array $fields = [], $password = FALSE) {
     $faker = Factory::create();
-    /** @var \Drupal\user\Entity\User $user */
+
     try {
+      /** @var \Drupal\user\Entity\User $user */
       $user = \Drupal::entityTypeManager()->getStorage('user')->create([
-        'name' => $faker->userName,
-        'mail' => $faker->email,
+        'name' => $faker->userName(),
+        'mail' => $faker->email(),
         'roles' => empty($roles) ? $this->_getConfig('default_role') : $roles,
         'pass' => $password ? $password : $faker->password(12, 14),
         'status' => 1,
       ]);
+
+      // Loop through each given field.
+      foreach ($fields as $key => $value) {
+        if ($user->hasField($key)) {
+          $user->set($key, empty($value) ? substr(str_shuffle(implode(range('a', 'z'))), 0, rand(6, 16)) : $value);
+        }
+      }
 
       $user->save();
       $this->users[] = $user->id();

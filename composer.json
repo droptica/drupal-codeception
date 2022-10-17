@@ -9,14 +9,18 @@
         }
     ],
     "require": {
-        "codeception/codeception": ">=4.0",
-        "fakerphp/faker": "^1.19",
-        "codeception/module-webdriver": ">=1.1",
-        "webflo/drupal-finder": "^1.2"
+        "fakerphp/faker": "^1.2",
+        "phpunit/phpunit": "^9.5",
+        "vlucas/phpdotenv": "^5.4",
+        "webflo/drupal-finder": "^1.2",
+        "codeception/codeception": "^4.0",
+        "codeception/visualception": "^1.0",
+        "codeception/module-webdriver": "^2.0",
+        "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
-        "composer/installers": "^1",
-        "drupal/core": "^8"
+        "composer/installers": "^2.2",
+        "drupal/core": "^9"
     },
     "license": "GPL-2.0",
     "authors": [

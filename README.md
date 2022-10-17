@@ -140,9 +140,9 @@ modules:
 
 ### Usage
 
-Create test user with specified roles.
+Create test user with specified roles and auto filled fields (leave second parameter as empty array if you don't need to auto-fill fields).
 
-`$user = $i->createUserWithRoles(['editor', 'authenticated'], 'password');`
+`$user = $i->createUserWithRoles(['editor', 'authenticated'], ['field_user_first_name' => ''], 'password');`
 
 Log in user by username.
 
