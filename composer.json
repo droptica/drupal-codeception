@@ -18,7 +18,7 @@
         "codeception/codeception": "^4.0",
         "codeception/visualception": "^1.0",
         "codeception/module-webdriver": "^2.0",
-        "codeception/module-phpbrowser": "^2.0",
+        "codeception/module-phpbrowser": "^1.0",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
