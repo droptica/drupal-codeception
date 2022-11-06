@@ -13,6 +13,7 @@
         "phpunit/phpunit": "^9.5",
         "vlucas/phpdotenv": "^5.4",
         "webflo/drupal-finder": "^1.2",
+        "codeception/module-db": "^2.0",
         "codeception/codeception": "^4.0",
         "codeception/visualception": "^1.0",
         "codeception/module-webdriver": "^2.0",
