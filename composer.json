@@ -27,6 +27,7 @@
     },
     "require-dev": {
         "composer/installers": "^2.2",
+        "phpunit/phpunit": "^9.5",
         "drupal/core": "^9"
     },
     "minimum-stability": "dev",
