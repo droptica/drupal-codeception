@@ -19,10 +19,10 @@
         "codeception/codeception": "^4.2",
         "phpunit/php-code-coverage": "^9.2",
         "codeception/visualception": "^1.0",
+        "eleven-labs/api-validator": "^0.7",
         "codeception/module-asserts": "^2.0",
         "codeception/module-webdriver": "^2.0",
         "codeception/module-phpbrowser": "^1.0",
-        "awuttig/codeception-api-validator": "dev-master",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
