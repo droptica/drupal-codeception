@@ -19,16 +19,14 @@
         "codeception/codeception": "^4.2",
         "phpunit/php-code-coverage": "^9.2",
         "codeception/visualception": "^1.0",
-        "eleven-labs/api-validator": "^0.7",
-        "cweagans/composer-patches": "^1.7",
         "codeception/module-asserts": "^2.0",
         "codeception/module-webdriver": "^2.0",
         "codeception/module-phpbrowser": "^1.0",
+        "thephpleague/openapi-psr7-validator": "^0.18",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
         "composer/installers": "^2.2",
-        "phpunit/phpunit": "^9.5",
         "drupal/core": "^9"
     },
     "minimum-stability": "dev",
@@ -38,11 +36,4 @@
             "Codeception\\": "src/Codeception"
         }
     },
-    "extra": {
-        "patches": {
-            "eleven-labs/api-validator": {
-                "Fix latest PHP notices": "../vendor/droptica/drupal-codeception/patches/eleven-labs/php-8-fixes.patch"
-            }
-        }
-    }
 }
