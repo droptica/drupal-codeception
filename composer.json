@@ -7,10 +7,6 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/thephpleague/openapi-psr7-validator"
         }
     ],
     "require": {
@@ -26,7 +22,7 @@
         "codeception/module-asserts": "^2.0",
         "codeception/module-webdriver": "^2.0",
         "codeception/module-phpbrowser": "^1.0",
-        "thephpleague/openapi-psr7-validator": "^0.18",
+        "league/openapi-psr7-validator": "^0.18",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
