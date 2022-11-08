@@ -41,7 +41,7 @@
     "extra": {
         "patches": {
             "eleven-labs/api-validator": {
-                "Fix latest PHP notices": "patches/eleven-labs/php-8-fixes.patch"
+                "Fix latest PHP notices": "../vendor/droptica/drupal-codeception/patches/eleven-labs/php-8-fixes.patch"
             }
         }
     }
