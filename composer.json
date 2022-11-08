@@ -10,7 +10,7 @@
         },
         {
             "type": "vcs",
-            "url": "thephpleague/openapi-psr7-validator"
+            "url": "https://github.com/thephpleague/openapi-psr7-validator"
         }
     ],
     "require": {
