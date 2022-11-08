@@ -41,7 +41,7 @@ use Symfony\Component\Serializer\Encoder\XmlEncoder;
 class ApiValidator extends Module implements DependsOnModule
 {
 
-    protected array $config = [
+    protected $config = [
         'schema' => ''
     ];
 
