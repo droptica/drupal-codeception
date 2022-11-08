@@ -22,6 +22,7 @@
         "codeception/module-asserts": "^2.0",
         "codeception/module-webdriver": "^2.0",
         "codeception/module-phpbrowser": "^1.0",
+        "awuttig/codeception-api-validator": "^1.1",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
