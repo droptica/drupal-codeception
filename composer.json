@@ -22,7 +22,7 @@
         "codeception/module-asserts": "^2.0",
         "codeception/module-webdriver": "^2.0",
         "codeception/module-phpbrowser": "^1.0",
-        "league/openapi-psr7-validator": "^0.18",
+        "league/openapi-psr7-validator": "^0.17",
         "ericmartel/codeception-email-mailhog": "^1.0"
     },
     "require-dev": {
