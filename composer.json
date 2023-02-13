@@ -10,25 +10,25 @@
         }
     ],
     "require": {
-        "fakerphp/faker": "^1.2",
-        "phpunit/phpunit": "^9.5",
-        "vlucas/phpdotenv": "^5.4",
+        "fakerphp/faker": "^1.21",
+        "phpunit/phpunit": "^9.6",
+        "vlucas/phpdotenv": "^5.5",
         "webflo/drupal-finder": "^1.2",
-        "codeception/module-db": "^2.0",
-        "symfony/phpunit-bridge": "^5.4",
-        "codeception/module-rest": "^2.0",
-        "codeception/codeception": "^4.2",
+        "codeception/module-db": "^3.1",
+        "symfony/phpunit-bridge": "^6.2",
+        "codeception/module-rest": "^3.3",
+        "codeception/codeception": "^5.0",
         "phpunit/php-code-coverage": "^9.2",
         "codeception/visualception": "^1.0",
-        "codeception/module-asserts": "^2.0",
-        "codeception/module-webdriver": "^2.0",
-        "codeception/module-phpbrowser": "^1.0",
-        "league/openapi-psr7-validator": "^0.17",
-        "ericmartel/codeception-email-mailhog": "^1.0"
+        "codeception/module-asserts": "^3.0",
+        "codeception/module-webdriver": "^3.2",
+        "ericmartel/codeception-email": "^1.0",
+        "codeception/module-phpbrowser": "^3.0",
+        "league/openapi-psr7-validator": "^0.18"
     },
     "require-dev": {
         "composer/installers": "^2.2",
-        "drupal/core": "^9"
+        "drupal/core": "^10"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
